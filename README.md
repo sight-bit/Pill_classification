@@ -1,6 +1,7 @@
 # AI Pill Discriminator for Blind people
 It is provides a solution for the blind people to recognize pills.
 
+--------------------------------------------------------------------------------------------
 ## 팀 소개
 **팀명:** 시선
 
@@ -12,6 +13,7 @@ It is provides a solution for the blind people to recognize pills.
 - 임영선 (H/W 디자이너)
 - 배한울 (S/W 개발자)
 
+--------------------------------------------------------------------------------------------
 ## 프로젝트 명
 시각장애인을 위한 인공지능 알약 판별기
 
@@ -22,6 +24,7 @@ It is provides a solution for the blind people to recognize pills.
 
 ## 프로젝트 체계도
 
+--------------------------------------------------------------------------------------------
 ## 파일 리스트
 **Aboard.py, multicamera.py**
 
@@ -39,6 +42,7 @@ It is provides a solution for the blind people to recognize pills.
 
 - 판별이 끝난 약의 정보를 읽어주기 위한 음성 지원 코드
 
+--------------------------------------------------------------------------------------------
 ## 사용된 부품
 **보드 :** B-L4S5I-IOT01A - 모터 구동
 
