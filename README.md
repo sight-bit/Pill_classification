@@ -44,6 +44,6 @@ It is provides a solution for the blind people to recognize pills.
 
 --------------------------------------------------------------------------------------------
 ## 사용된 부품
-**보드 :** B-L4S5I-IOT01A - 모터 구동, 
+**보드 :** B-L4S5I-IOT01A - 모터 구동, 센서 인식
 
-**보조 보드 :** RaspberryPi 4 - 카메라 구동, 음성 출력, 알약 판별
+**보조 보드 :** RaspberryPi 4 - 카메라 구동, 음성 출력, DL을 통한 알약 판별
