@@ -1,6 +1,17 @@
 # AI Pill Discriminator for Blind people
 It is provides a solution for the blind people to recognize pills.
 
+## 팀 소개
+**팀명:** 시선
+
+**팀장:** 황선일 (기획 / 디자인)
+
+**팀원:**
+
+- 김영재 (H/W 개발자)
+- 임영선 (H/W 디자이너)
+- 배한울 (S/W 개발자)
+
 ## 프로젝트 명
 시각장애인을 위한 인공지능 알약 판별기
 
