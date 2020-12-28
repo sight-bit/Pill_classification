@@ -21,3 +21,7 @@ It is provides a solution for the blind people to recognize pills.
 그들을 이러한 불편함에서 보호하고자, 시각장애인들이 약을 쉽게 구별하여 복용할 수 있도록 알약 판별이 가능한 판별기 서비스를 제공하고자 한다.
 
 ## 프로젝트 체계도
+
+## 사용된 부품
+**보드 :** B-L4S5I-IOT01A - 모터 구동
+**보조 보드 :** RaspberryPi 4 - 카메라 구동, AI
