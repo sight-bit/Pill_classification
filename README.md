@@ -23,7 +23,7 @@ It is provides a solution for the blind people to recognize pills.
 그들을 이러한 불편함에서 보호하고자, 시각장애인들이 약을 쉽게 구별하여 복용할 수 있도록 알약 판별이 가능한 판별기 서비스를 제공하고자 한다.
 
 ## 프로젝트 체계도
-(img src='https://github.com/sight-bit/Pill_classification/blob/master/%EC%B2%B4%EA%B3%84%EB%8F%84.jpg')
+![](https://github.com/sight-bit/Pill_classification/blob/master/%EC%B2%B4%EA%B3%84%EB%8F%84.jpg)
 --------------------------------------------------------------------------------------------
 ## 파일 리스트
 **Aboard.py, multicamera.py**
