@@ -27,7 +27,8 @@ It provides a solution for the blind people to recognize pills.
 
 
 ## CUBE AI
-초기 5개의 알약 분류시 사용했던 성능이 좋지 않은 작은 네트워크로 먼저 변환 시도. 분류 성능을 내기 위해 실제로 사용한 네트워크에 비해 훨씬 작은 모델.
+초기 5개의 알약 분류시 사용했던 성능이 좋지 않은 작은 네트워크로 먼저 변환 시도.
+성능을 내기 위해 실제로 사용한 네트워크에 비해 훨씬 작은 모델임에도 불구하고 실패.
 ![stm32aiFail](https://user-images.githubusercontent.com/76139189/103455058-ede46480-4d2c-11eb-8d21-e6e6eb870671.png)
 따라서 이미지 추론은 라즈베리파이를 사용.
 
