@@ -47,7 +47,7 @@ TIM_HandleTypeDef htim15;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-char data[] = "test\r\n";
+char data[] = "test\r\n"; 
 int running=0;
 char received = '0';
 HAL_StatusTypeDef rcvStat;
