@@ -35,41 +35,7 @@ It provides a solution for the blind people to recognize pills.
 
 ## 프로젝트 소개 비디오
 [프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
---------------------------------------------------------------------------------------------
 
-## 파일 리스트
-**Pill_list.csv**
-- 판별할 알약의 정보 리스트 (이름, 성분, 복약 가이드 등)
-
-**_camera.py**
-- 카메라 모듈
-
-**_serial.py**
-- stm 과의 통신을 위한 모듈
-
-**_ttsService.py**
-- 판별된 약의 이름과 복약가이드를 음성으로 서비스
-
-**frozen_graph.pb**
-- 추론을 위한 네트워크 및 가중치 파일
-
-**img_aug.py**
-- 훈련 데이터 증식
-
-**img_coord.py**
-- Rotation ROI(원형) 를 찾기 위해 사용
-
-**inference.py**
-- 촬영된 이미지를 통해 약을 추론
-
-**main.c**
-- stm32cubeIDE 에서 작성한 코드
-
-**readcsv.py**
-- csv를 읽어 알약의 정보를 가져옴
-
-**main.py**
-- 실제 실행되는 main 코드
 --------------------------------------------------------------------------------------------
 ## 사용된 부품 및 기술
 
@@ -77,8 +43,7 @@ It provides a solution for the blind people to recognize pills.
 
 **보조 보드 :** RaspberryPi 4 - 조명 및 촬영, DL을 통한 알약 판별, 안내 음성 출력
 
-**사용 언어 : **파이썬(라즈베리파이), C(STM32)
-**
- 
+**사용 언어 :** 파이썬(라즈베리파이), C(STM32)
 
+**주 사용 라이브러리 :**  HAL, Keras, OpenCV, gTTS 
 --------------------------------------------------------------------------------------------
