@@ -10,7 +10,7 @@ It provides a solution for the blind people to recognize pills.
 
 **팀원:**
 
-- 김영재 (S/W) 딥러닝을 사용하여 약품 판별 모델을 학습, 모델의 정확성과 속도 개선.
+- 김영재 (S/W) DL 을 사용하여 약품 판별 모델을 학습, 모델의 정확성과 속도 개선.
 - 배한울 (S/W) 훈련 데이터를 위한 조명부 조절 및 설계, 이미지 전처리 프로세스 처리.
 - 임영선 (H/W) STM32와 라즈베리파이의 통신 및 센서 제어, 전체 프로세스 설계.
 
@@ -60,9 +60,18 @@ It provides a solution for the blind people to recognize pills.
 
 --------------------------------------------------------------------------------------------
 
+## DL 학습 결과 및 약품 별 Accuracy
+![03_01_2021 03:15:30class_plotting](https://user-images.githubusercontent.com/76139189/103464669-e6e34380-4d78-11eb-8480-7950dd37cbf7.png)
+![03_01_2021 03:15:30_plotting](https://user-images.githubusercontent.com/76139189/103464670-e77bda00-4d78-11eb-8f24-3ff40b2e0d16.png)
+
+## 사용한 약품 class
+![pillbox](https://user-images.githubusercontent.com/76139189/103464683-ecd92480-4d78-11eb-9442-7cb470eb9c6a.png)
+
+--------------------------------------------------------------------------------------------
+
 ## 추후 보완할 점
 
 - 하위 조명부 LED strap 교체
 - 크기가 작은 알약 투입시 인식 불가한 경우 발생
 - 촬영부 환경 고찰(밀폐 여부, 알약 이동 후 흔들림 등)
-- inference 정확도 개선(학습 방법의 다양화)
+- inference 정확도 개선(특정 약품 판별 학습 방법의 다양화)
