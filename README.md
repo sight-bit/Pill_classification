@@ -27,6 +27,7 @@ It provides a solution for the blind people to recognize pills.
 
 ## 프로젝트 소개 비디오
 [프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
+[실제 구현 영상](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
 --------------------------------------------------------------------------------------------
 
 ## 파일 리스트
@@ -67,7 +68,7 @@ It provides a solution for the blind people to recognize pills.
 
 **보드 :** B-L4S5I-IOT01A - 위 아래 서보모터 구동, 포토 인터럽트센서로 알약 투입 인식
 
-**보조 보드 :** RaspberryPi 4 - 조명 조절 및 카메라 촬영, DL을 통한 알약 판별, 안내 음성 출력
+**보조 보드 :** RaspberryPi 4 - 조명 및 촬영, DL을 통한 알약 판별, 안내 음성 출력
 
 --------------------------------------------------------------------------------------------
 
