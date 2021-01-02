@@ -5,7 +5,7 @@ from readcsv import r
 tensorflowNet = cv.dnn.readNet('frozen_graph.pb')
 
 # background image for pre-processing   
-bak = cv.imread('bak.jpg')
+bak = cv.imread('bak.jpg') 
 
 def infer(frame_up, frame_down):
     net_input = np.hstack((frame_up,frame_down))    
