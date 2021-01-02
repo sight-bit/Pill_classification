@@ -48,9 +48,9 @@ It provides a solution for the blind people to recognize pills.
 
 ## 사용된 부품 및 기술
 
-**보드 :** B-L4S5I-IOT01A - 위 아래 서보모터 구동, 포토 인터럽트센서로 알약 투입 인식
+**보드 :** B-L4S5I-IOT01A - 서보모터 구동, 약품 투입 인식, 라즈베리파이와 UART 통신
 
-**보조 보드 :** RaspberryPi 4 - 조명 및 촬영, DL을 통한 알약 판별, 안내 음성 출력
+**보조 보드 :** RaspberryPi 4 - 촬영, 알약 추론, 안내 음성 출력
 
 **사용 언어 :** 파이썬(라즈베리파이), C(STM32)
 
