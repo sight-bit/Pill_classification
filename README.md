@@ -64,5 +64,5 @@ It provides a solution for the blind people to recognize pills.
 
 - 하위 조명부 LED strap 교체
 - 크기가 작은 알약 투입시 인식 불가한 경우 발생
-- 촬영부의 조명 환경 고찰(밀폐 여부 등)
+- 촬영부 환경 고찰(밀폐 여부, 알약 이동 후 흔들림 등)
 - inference 정확도 개선(학습 방법의 다양화)
