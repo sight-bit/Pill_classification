@@ -26,7 +26,7 @@ It is provides a solution for the blind people to recognize pills.
 ![](https://github.com/sight-bit/Pill_classification/blob/master/%EC%B2%B4%EA%B3%84%EB%8F%84.jpg)
 
 ## 프로젝트 소개 비디오
-![프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
+![프로젝트 소개]https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing
 --------------------------------------------------------------------------------------------
 ## 파일 리스트
 **Aboard.py, multicamera.py**
