@@ -57,3 +57,9 @@ It provides a solution for the blind people to recognize pills.
 **주 사용 라이브러리 :**  HAL, Keras, OpenCV, gTTS 
 
 --------------------------------------------------------------------------------------------
+
+## 추후 보완할 점
+
+- 하위 조명부 LED strap 교체
+- 촬영부 조명에 대한 고찰
+- inference 속도 개선 연구
