@@ -27,7 +27,7 @@ if __name__ == '__main__':
                 # tts service
                 speak(p_name,p_guide)
 
-                # down sevo
+                # down sevo 
                 ser.write(str(p_guide).encode())
             
         
