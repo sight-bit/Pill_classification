@@ -29,7 +29,7 @@ It provides a solution for the blind people to recognize pills.
 --------------------------------------------------------------------------------------------
 
 ## 프로젝트 체계도
-![](https://github.com/sight-bit/Pill_classification/blob/master/%EC%B2%B4%EA%B3%84%EB%8F%84.jpg)
+![체계도](https://user-images.githubusercontent.com/76139189/103459514-5e05e100-4d53-11eb-8d43-ce6491b587f2.jpg)
 
 --------------------------------------------------------------------------------------------
 
@@ -50,7 +50,9 @@ It provides a solution for the blind people to recognize pills.
 
 **보드 :** B-L4S5I-IOT01A - 서보모터(MG90) 구동, 약품 투입 인식(BUP-30S), 라즈베리파이 UART 통신(micro 5pin to USB cable)
 
-**보조 보드 :** RaspberryPi 4 - 촬영(Raspberry Pi Camera V2), 알약 추론, 안내 음성 출력(TGC-600u speaker)
+**보조 보드 :** RaspberryPi 4 - 촬영(Raspberry Pi Camera V2), 알약 추론(EfficientNet-B0:transfer learning), 안내 음성 출력(TGC-600u speaker)
+
+**기타 부품 :** LED Strip(SZH-LD311), 1.5V 건전지 8개
 
 **사용 언어 :** 파이썬(라즈베리파이), C(STM32)
 
@@ -61,5 +63,6 @@ It provides a solution for the blind people to recognize pills.
 ## 추후 보완할 점
 
 - 하위 조명부 LED strap 교체
-- 알약 크기가 작을 시 투입 인식 불가한 문제 해결
-- inference 정확도 개선
+- 크기가 작은 알약 투입시 인식 불가한 경우 발생
+- 촬영부의 조명 환경 고찰(밀폐 여부 등)
+- inference 정확도 개선(학습 방법의 다양화)
