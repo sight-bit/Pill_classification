@@ -54,7 +54,7 @@ It provides a solution for the blind people to recognize pills.
 
 **기타 부품 :** LED Strip(SZH-LD311), 1.5V 건전지 8개
 
-**사용 언어 :** 파이썬(라즈베리파이), C(STM32)
+**사용 언어 :** Python(라즈베리파이), C(STM32)
 
 **주 사용 라이브러리 :**  HAL, Keras, OpenCV, gTTS 
 
