@@ -1,17 +1,17 @@
 # AI Pill Discriminator for Blind people
-It is provides a solution for the blind people to recognize pills.
+It provides a solution for the blind people to recognize pills.
 
 --------------------------------------------------------------------------------------------
 ## 팀 소개
 **팀명:** 시선
 
-**팀장:** 황선일 (기획 / 디자인)
+**팀장:** 황선일 (기획 / 디자인) 각 H/W의 부분 설계 및 3D 프린터를 활용한 제작.
 
 **팀원:**
 
-- 김영재 (H/W 개발자)
-- 임영선 (H/W 디자이너)
-- 배한울 (S/W 개발자)
+- 김영재 (S/W) 딥러닝을 사용하여 약품 판별 모델을 학습, 모델의 정확성과 속도 개선.
+- 배한울 (S/W) 모델 학습 및 훈련 데이터를 위한 조명부 조절 및 설계, 이미지 전처리 프로세스 처리.
+- 임영선 (H/W) STM32와 라즈베리파이의 통신 및 각 센서 제어, 전체 프로세스 설계 및 하드웨어 구축.
 
 --------------------------------------------------------------------------------------------
 ## 프로젝트 명
@@ -27,40 +27,42 @@ It is provides a solution for the blind people to recognize pills.
 
 ## 프로젝트 소개 비디오
 [프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
+
+![](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
 --------------------------------------------------------------------------------------------
 ## 파일 리스트
 **Pill_list.csv**
-- 판별할 약 리스트
+- 판별할 알약의 정보 리스트 (이름, 성분, 복약 가이드 등)
 
 **_camera.py**
-- 카메라 모듈의 동작을 확인하는 코드
+- 카메라 모듈
 
 **_serial.py**
-- stm port 확인 코드
+- stm 과의 통신을 위한 모듈
 
 **_ttsService.py**
-- 판별된 약의 정보를 음성 서비스하는 코드
+- 판별된 약의 이름과 복약가이드를 음성으로 서비스함
 
 **frozen_graph.pb**
-- 학습된 모델(.pb)
+- 추론을 위한 네트워크 및 가중치 파일
 
 **img_aug.py**
-- 이미지 데이터 전처리 코드(배경 삭제)
+- 훈련 데이터 증식을 위해 사용한 코드
 
 **img_coord.py**
-- 이미지 전처리를 위해 이미지 배경의 좌표를 찾는 코드
+- Rotation ROI(원형) 를 찾기 위해 사용한 코드
 
 **inference.py**
-- 학습된 모델을 사용하여 약을 추론
+- 촬영된 이미지를 통해 약을 추론
 
 **main.c**
-- stm 보드 코드
-
-**main.py**
-- 하드웨어를 전체적으로 제어하는 main 코드
+- stm 보드에 사용한 코드
 
 **readcsv.py**
 - 판별할 약 리스트를 읽는 코드
+
+**main.py**
+- 실제 실행되는 main 코드
 --------------------------------------------------------------------------------------------
 ## 사용된 부품
 **보드 :** B-L4S5I-IOT01A - 모터 구동, 센서 인식
