@@ -2,7 +2,7 @@ from _serial import ser # serial
 from _camera import change_cam, take_pic, up_led, down_led, up_cam, down_cam # gpio, os, time, cv
 from _ttsService import speak # os, time
 from readcsv import r,f # csv, io
-from inference import infer # np, cv
+from inference import infer # np, cv 
 
 
 if __name__ == '__main__':
