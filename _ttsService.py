@@ -14,7 +14,7 @@ def speak(pn, pg):
 
     os.system('cvlc med.mp3 --play-and-exit')
     os.system('rm -f med.mp3')
-    time.sleep(1)
+    time.sleep(1) 
     
 
 
