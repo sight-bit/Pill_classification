@@ -61,5 +61,5 @@ It provides a solution for the blind people to recognize pills.
 ## 추후 보완할 점
 
 - 하위 조명부 LED strap 교체
-- 촬영부 조명에 대한 고찰
-- inference 속도 개선 연구
+- 알약 크기가 작을 시 투입 인식 불가한 문제 해결
+- inference 정확도 개선
