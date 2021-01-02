@@ -19,7 +19,7 @@ down_cam = 'B'
 up_led = 40
 down_led = 38
 gp.setup(up_led,gp.OUT)
-gp.setup(down_led,gp.OUT)
+gp.setup(down_led,gp.OUT) 
 
 
 
