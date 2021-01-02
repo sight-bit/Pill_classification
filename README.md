@@ -26,7 +26,8 @@ It provides a solution for the blind people to recognize pills.
 ![](https://github.com/sight-bit/Pill_classification/blob/master/%EC%B2%B4%EA%B3%84%EB%8F%84.jpg)
 
 
-
+## CUBE AI
+![stm32aiFail](https://user-images.githubusercontent.com/76139189/103455058-ede46480-4d2c-11eb-8d21-e6e6eb870671.png)
 
 
 
