@@ -82,7 +82,7 @@ def take_pic(_camera, _gpio):
 
     gp.output(_gpio,False) # light off
 
-    cam.release()
+    cam.release() 
     time.sleep(0.5)
 
     return frame
