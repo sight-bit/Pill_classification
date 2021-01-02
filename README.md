@@ -29,22 +29,38 @@ It is provides a solution for the blind people to recognize pills.
 [프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
 --------------------------------------------------------------------------------------------
 ## 파일 리스트
-**Aboard.py, multicamera.py**
+**Pill_list.csv**
+- 판별할 약 리스트
 
-- 카메라 2대를 사용하기 위한 멀티 카메라 모듈 구현 코드
+**_camera.py**
+- 카메라 모듈의 동작을 확인하는 코드
 
-**previewOpencv.py**
+**_serial.py**
+- stm port 확인 코드
 
-- 각 카메라의 정상적인 작동을 확인하기 위한 비디오 모드 실행 코드
+**_ttsService.py**
+- 판별된 약의 정보를 음성 서비스하는 코드
 
-**test3.py**
+**frozen_graph.pb**
+- 학습된 모델(.pb)
 
-- 들어온 약의 앞, 뒷면 사진을 양쪽으로 찍어 하나의 이미지 데이터로 만들어주는 코드
+**img_aug.py**
+- 이미지 데이터 전처리 코드(배경 삭제)
 
-**gt2.py**
+**img_coord.py**
+- 이미지 전처리를 위해 이미지 배경의 좌표를 찾는 코드
 
-- 판별이 끝난 약의 정보를 읽어주기 위한 음성 지원 코드
+**inference.py**
+- 학습된 모델을 사용하여 약을 추론
 
+**main.c**
+- stm 보드 코드
+
+**main.py**
+- 하드웨어를 전체적으로 제어하는 main 코드
+
+**readcsv.py**
+- 판별할 약 리스트를 읽는 코드
 --------------------------------------------------------------------------------------------
 ## 사용된 부품
 **보드 :** B-L4S5I-IOT01A - 모터 구동, 센서 인식
