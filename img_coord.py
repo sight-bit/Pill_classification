@@ -4,7 +4,7 @@ import numpy as np
 def p(event, x, y, flag, param):
     print("x : ", x, " y : ", y)
 
-img = cv2.imread('./image/00/0.jpg')
+img = cv2.imread('./image/00/0.jpg') 
 cv2.namedWindow('image')
 cv2.setMouseCallback('image', p)
 
