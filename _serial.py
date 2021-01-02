@@ -8,4 +8,4 @@ ser = serial.Serial(
     baudrate=115200)
 
 
-print(ser.portstr) #연결된 포트 확인.
+print(ser.portstr) #연결된 포트 확인. 
