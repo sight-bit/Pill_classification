@@ -27,9 +27,8 @@ It provides a solution for the blind people to recognize pills.
 
 ## 프로젝트 소개 비디오
 [프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
-
-![](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
 --------------------------------------------------------------------------------------------
+
 ## 파일 리스트
 **Pill_list.csv**
 - 판별할 알약의 정보 리스트 (이름, 성분, 복약 가이드 등)
@@ -65,6 +64,11 @@ It provides a solution for the blind people to recognize pills.
 - 실제 실행되는 main 코드
 --------------------------------------------------------------------------------------------
 ## 사용된 부품
-**보드 :** B-L4S5I-IOT01A - 모터 구동, 센서 인식
 
-**보조 보드 :** RaspberryPi 4 - 카메라 구동, 음성 출력, DL을 통한 알약 판별
+**보드 :** B-L4S5I-IOT01A - 서보모터 구동, 포토 인터럽트센서로 인식
+
+**보조 보드 :** RaspberryPi 4 - 카메라 촬영, DL을 통한 알약 판별, 안내 음성 출력
+
+--------------------------------------------------------------------------------------------
+
+
