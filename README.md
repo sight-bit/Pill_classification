@@ -42,7 +42,7 @@ It provides a solution for the blind people to recognize pills.
 --------------------------------------------------------------------------------------------
 
 ## 프로젝트 시연 영상
-[프로젝트 소개](https://drive.google.com/file/d/19ay3S3C-I5zNezuI2NC_iFQBTkcYIECG/view?usp=sharing)
+[프로젝트 시연](https://drive.google.com/file/d/19ay3S3C-I5zNezuI2NC_iFQBTkcYIECG/view?usp=sharing)
 
 --------------------------------------------------------------------------------------------
 
