@@ -41,8 +41,8 @@ It provides a solution for the blind people to recognize pills.
 
 --------------------------------------------------------------------------------------------
 
-## 프로젝트 소개 영상
-[프로젝트 소개](https://drive.google.com/file/d/1l8FyFvYxKbq2BUrAnfZMIuWi2pCM3Hy6/view?usp=sharing)
+## 프로젝트 시연 영상
+[프로젝트 소개](https://drive.google.com/file/d/19ay3S3C-I5zNezuI2NC_iFQBTkcYIECG/view?usp=sharing)
 
 --------------------------------------------------------------------------------------------
 
@@ -75,3 +75,4 @@ It provides a solution for the blind people to recognize pills.
 - 크기가 작은 알약 투입시 인식 불가한 경우 발생
 - 촬영부 환경 고찰(밀폐 여부, 알약 이동 후 흔들림 등)
 - inference 정확도 개선(특정 약품 판별 학습 방법의 다양화)
+- AWS를 활용한 서비스 구축 
